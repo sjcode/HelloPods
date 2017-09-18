@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char HelloPodsVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <HelloPods/PublicHeader.h>
 
-#import "Stuff.h"
+#import <Stuff.h>

@@ -307,6 +307,7 @@
 				AAAC26001F6E56DF00B2A169 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

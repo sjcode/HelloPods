@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface Stuff : NSObject
-
+- (void)brak;
 @end
