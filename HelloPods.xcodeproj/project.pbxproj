@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		AAAC25FB1F6E56DF00B2A169 /* HelloPods.h in Headers */ = {isa = PBXBuildFile; fileRef = AAAC25F91F6E56DF00B2A169 /* HelloPods.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAAC26031F6E56FA00B2A169 /* Stuff.h in Headers */ = {isa = PBXBuildFile; fileRef = AAAC26011F6E56FA00B2A169 /* Stuff.h */; };
+		AAAC26041F6E56FA00B2A169 /* Stuff.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAC26021F6E56FA00B2A169 /* Stuff.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AAAC25F61F6E56DF00B2A169 /* HelloPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HelloPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAAC25F91F6E56DF00B2A169 /* HelloPods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloPods.h; sourceTree = "<group>"; };
 		AAAC25FA1F6E56DF00B2A169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAAC26011F6E56FA00B2A169 /* Stuff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stuff.h; sourceTree = "<group>"; };
+		AAAC26021F6E56FA00B2A169 /* Stuff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stuff.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				AAAC25F91F6E56DF00B2A169 /* HelloPods.h */,
 				AAAC25FA1F6E56DF00B2A169 /* Info.plist */,
+				AAAC26011F6E56FA00B2A169 /* Stuff.h */,
+				AAAC26021F6E56FA00B2A169 /* Stuff.m */,
 			);
 			path = HelloPods;
 			sourceTree = "<group>";
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAAC25FB1F6E56DF00B2A169 /* HelloPods.h in Headers */,
+				AAAC26031F6E56FA00B2A169 /* Stuff.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAAC26041F6E56FA00B2A169 /* Stuff.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
